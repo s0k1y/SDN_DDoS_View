@@ -29,20 +29,24 @@
 Exploring Security Dynamics in SDN Controller Architectures Threat Landscape and Implications  
 
 # 流量调度
-分散攻击流量
-## 拓扑结构设计
+分散攻击流量 研究偏流量工程
+## 拓扑优化 结构设计
+### 拓扑编程 动态修改拓扑路径
+#### 光拓扑规划 动态增加链路容量
+## 路由优化 重定向
+### 路由表平衡算法
+### 选择性重路由
+### 临界流重路由
+#### Bellman-Ford 算法最短路径路由
+### 重定向至蜜罐/可消耗服务器
+
+### 基于策略的流量调度
 ## 负载均衡
 ### 分布式缓解
 #### 以分布式控制器网络弹性容错机制 集群抵御
 ##### Gossip分布式通信协议
 
-### 路由/重定向
-#### 路由表平衡算法
-#### 选择性重路由
-#### 临界流重路由
-##### Bellman-Ford 算法最短路径路由
-#### 重定向至蜜罐/可消耗服务器
-### 基于策略的流量调度
+
 
 Belyaev et al 来源:
 Exploring Security Dynamics in SDN Controller Architectures Threat Landscape and Implications  
